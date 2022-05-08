@@ -48,6 +48,7 @@ const Main: FC = () => {
               />
             );
           })}
+        <span className={s.main__users_count}>Найдено {users.length} пользователей</span>
         </div>
       </div>
       :<div className={s.main__preloader}>
