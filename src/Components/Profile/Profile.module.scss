@@ -1,0 +1,22 @@
+$w:438px;
+.profile{
+   margin-left:36px; 
+}
+.profile__input_wrapper{
+    width:$w;
+    height:463px;
+    border-radius:8px;
+    border:1px solid #F3F3F3;
+}
+.profile__header{
+width:$w;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+}
+.profile__button_wrapper{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:10px;
+}

@@ -1,0 +1,25 @@
+$f:flex;
+
+.main__container {
+    display: $f;
+    flex-direction: row;
+}
+
+.main__users {
+    display: $f;
+    flex-direction: column;
+    margin-left: 31px;
+}
+.main__preloader{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    top:30%;
+    width:100%;
+    text-align: center;
+}
+.main__preloader_text{
+    font-size:56px;
+    
+}
